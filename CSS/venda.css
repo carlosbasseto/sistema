@@ -107,3 +107,152 @@ h1{
     transition: filter 0.3s ease;
     margin-top: 28px;
 }
+
+
+.bds-img{
+    width: 120px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.info-venda{
+    border: 3px solid var(--azul);
+    background-color: #ddd;
+    width: 35%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.venda-e-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left:5px
+}
+
+h4{
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.h3{
+    margin-top:24px;
+    margin-left: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.svg-cliente-venda{
+    width: 35px;
+    fill: var(--azul) ;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.cliente-venda{
+    display: flex;
+}
+
+.svg-cliente-venda-calendario{
+    width: 30px;
+    fill: var(--azul) ;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.produto-venda{
+    background-color: #ddd;
+    width: 35%;
+    margin-left: 5px;
+    border: 3px solid var(--azul);
+    margin-top: 8px;
+    height:63vh;
+}
+
+.descricao-produto{
+    display: flex;
+    padding: 15px;
+    margin-left: 18px;
+}
+
+.svg-produto{
+    width: 25px;
+    fill: var(--azul);
+    cursor: pointer;
+}
+
+.descricao-produto p{
+    font-size: 18px;
+    padding: 8px;
+}
+
+.qtd-venda{
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+.inputs-venda .input-1{
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.input-2{
+    padding: 10px;
+    border: 1px solid;
+    margin-left: 1px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.info-produto{
+    padding: 15px;
+    font-size: 22px;
+}
+
+.botoes-venda button{
+    padding: 10px;
+    width: 200px;
+}
+
+.botoes-venda{
+   margin-left: 40px;
+    margin-top: 115px;
+}
+
+button{
+    margin-left: 4%;
+    margin: 8px;
+}
+
+.botao-1{
+    border: 3px solid var(--azul);
+    color: var(--azul);
+    background-color: #6170f7;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.botao-2{
+    color: #d11515;
+    border: 3px solid #d11515 ;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #eb7f7f;
+}
+
+.botao-3{
+    border-radius: 8px;
+    font-size: 18px;
+    color: #259c25;
+    border: 3px solid #259c25;
+    background-color: #8ae98a;
+}
