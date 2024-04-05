@@ -118,10 +118,13 @@ h1{
 .info-venda{
     border: 3px solid var(--azul);
     background-color: #ddd;
-    width: 35%;
-    margin-top: 5px;
-    margin-left: 5px;
+    width: 100%;
+
+    /*margin-top: 5px;
+    margin-left: 5px;*/
 }
+
+
 
 .venda-e-img{
     display: flex;
@@ -169,11 +172,11 @@ h4{
 
 .produto-venda{
     background-color: #ddd;
-    width: 35%;
-    margin-left: 5px;
+    width: 100%;
     border: 3px solid var(--azul);
-    margin-top: 8px;
     height:63vh;
+    /*margin-left: 5px;
+    margin-top: 8px;*/
 }
 
 .descricao-produto{
@@ -220,17 +223,17 @@ h4{
 
 .botoes-venda button{
     padding: 10px;
-    width: 200px;
+    margin-left: 8px;
 }
 
 .botoes-venda{
-   margin-left: 40px;
+   text-align: center;
     margin-top: 115px;
 }
 
 button{
-    margin-left: 4%;
     margin: 8px;
+    width: 200px;
 }
 
 .botao-1{
@@ -255,4 +258,334 @@ button{
     color: #259c25;
     border: 3px solid #259c25;
     background-color: #8ae98a;
+}
+
+.container{
+    display: flex;
+   
+}
+
+.container-info-venda{
+    width: 35%;
+    padding: 8px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.venda-produto{
+    background-color: #ddd;
+    height: 620px;
+    width: 946px;
+    margin-left: 3px;
+    margin-top: 8px;
+    border: 3px solid var(--azul);
+}
+
+.titulo-venda{
+    display: flex;
+    margin-left: 330px;
+}
+
+.titulo-venda p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.mao-svg{
+    width: 50px;
+    margin-left: 15px;
+    fill: red;
+    cursor: pointer;
+}
+
+.mao-svg:active{
+    fill: #259c25;
+}
+
+.itens-tabela{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.seguencia{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.seguencia-1:hover{
+    background-color: #9e9a9a;
+}
+
+.codigo{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 83px;
+    text-align: center;
+}
+
+.codigo-1:hover{
+    background-color: #9e9a9a;
+}
+
+.produto-descricao{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 180px;
+    text-align: center;
+}
+
+.produto-descricao-1:hover{
+    background-color: #9e9a9a;
+}
+
+.quantidade-venda{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 80px;
+    text-align: center;  
+}
+
+.quantidade-venda-1:hover{
+    background-color: #9e9a9a;
+}
+
+.valor-produto{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 80px;
+    text-align: center;  
+}
+
+.valor-produto-1:hover{
+    background-color: #9e9a9a;
+}
+
+.sub-total{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 88px;
+    text-align: center;
+}
+
+.sub-total-1:hover{
+    background-color: #9e9a9a;
+}
+
+.tipo{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 80px;
+    text-align: center;  
+}
+
+.tipo-1:hover{
+    background-color: #9e9a9a;
+}
+
+.acao{
+    padding: 5px;
+    border: 3px solid  var(--azul);
+    font-size: 18px;
+    margin-left: 5px;
+    width: 80px;
+    text-align: center;  
+}
+
+.acao-1:hover{
+    background-color: #9e9a9a;
+}
+
+.svg-venda{
+    width: 12px;
+    fill: #259c25;
+    cursor: pointer;
+}
+
+.produto-venda-lista{
+    display: flex;
+   
+}
+
+.acao-svg1{
+    width: 18px;
+    fill: #259c25;
+    cursor: pointer;
+}
+
+.acao-svg2{
+    width: 18px;
+    fill: #d11515;
+    cursor: pointer;
+}
+
+.seguencia-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 30px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.codigo-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 83px;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+
+.produto-descricao-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 180px;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+
+.quantidade-venda-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+
+.valor-produto-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+
+.sub-total-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 88px;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+
+.tipo-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px; 
+}
+
+.acao-1{
+    padding: 5px;
+    background-color: #cfcccc;
+    font-size: 18px;
+    border: 3px solid;
+    margin-left: 5px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px; 
+}
+
+.input-venda{
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+    margin-top: 2%;
+    font-size: 18px;
+    border: 3px solid var(--azul);
+    font-weight: bold;
+}
+
+.soma-venda{
+    margin-left: 15%;
+}
+
+.input-venda-1{
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+    margin-top: 25%;
+    margin-left: 28px;
+    font-size: 18px;
+    border: 3px solid var(--azul);
+    font-weight: bold;
+}
+
+.radio{
+    margin-left: 80px;
+}
+
+.input-venda-vista{
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 18px;
+    border: 3px solid var(--azul);
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.input-venda-vista-2{
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 18px;
+    border: 3px solid var(--azul);
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.total-geral{
+    font-size: 30px;
+    width: 98%;
+    margin-top: 25px;
+    text-align: right;
+    margin-left: 8px;
 }
