@@ -599,3 +599,13 @@ button{
     text-align: right;
     margin-left: 8px;
 }
+
+.botao-1-2{
+    border: 3px solid var(--azul);
+    color: var(--azul);
+    background-color: #6170f7;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 300px;
+}

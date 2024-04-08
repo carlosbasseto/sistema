@@ -285,6 +285,11 @@ h4{
     color: var(--azul);
     border-radius: 5px;
     cursor: pointer;
+    width: 210px;
+}
+
+.botoes{
+    text-align: center;
 }
 
 .botao-condi:hover{
