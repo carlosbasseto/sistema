@@ -83,7 +83,83 @@
                 </div>
                 <div class="cancela-salva-venda">
                     <a href="venda.html"><button class="cancelar">Cancelar (Alt + c)</button></a>
-                    <a href="index.html"><button class="salvar">Salvar (Alt + a)</button></a>
+                    <button id="openModal" class="salvar">Salvar (Alt + s)</button>
+
+                    <div id="myModal" class="modal">
+                      <div class="modal-content">
+                        <a href="index.html"><span class="close">&times;</span></a>
+                        <p class="titulo-modal"><strong>Pedido de venda: 1</strong></p>
+                        <p class="titulo-modal"><strong>BDS SISTEMAS</strong></p>
+                        <p class="texto-modal">R WASHINGTON LUIZ</p>
+                        <p class="texto-modal">CNPJ: 79.068.185/0001-26</p>
+                        <div class="info-empresa">
+                            <p>Fone:(44) 3015-3030</p>
+                            <p>IE: 7030035830</p>
+                        </div>
+                        <div class="info-empresa">
+                            <p>Cidade: Marialva</p>
+                            <p>Data: 08/04/2024, 15:53:00</p>
+                        </div>
+                        <p class="info-pedido">Vendedor: BDS</p>
+                        <p class="info-pedido">Usuário: BDS</p>
+                        <p class="cliente-modal"><strong>Cliente: Carlos Eduardo Basseto da Rocha</strong></p>
+                        <div class="info-empresa">
+                            <p>CPF: 022.136.029-80</p>
+                            <p>RG: Não cadastrado</p>
+                        </div>
+                        <div class="info-empresa">
+                            <p>End.: R. JAIR COLOMBO 2709</p>
+                            <p>BAIRRO: Não cadastrado</p>
+                        </div>
+                        <p class="info-pedido">Fone:(44)999179946</p>
+                        <p class="info-pedido">Obs: NULL</p>
+                        <div class="tabela">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cód</th>
+                                    <th>Descrição</th>
+                                    <th>Quant.</th>
+                                    <th>Valor pago</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>06.098446</td>
+                                    <td>Camiseta</td>
+                                    <td>1</td>
+                                    <td>79,99</td>
+                                </tr>   
+                                <tr>
+                                    <td>09.089154</td>
+                                    <td>Meia</td>
+                                    <td>1</td>
+                                    <td>79,99</td>
+                                </tr>    
+                                <tr>
+                                    <td>05.001892</td>
+                                    <td>Calça</td>
+                                    <td>1</td>
+                                    <td>95,99</td>
+                                </tr>        
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="info-empresa">
+                        <p>Nº Itens: 1,00</p>
+                        <p>Valor bruto: R$ 439,94</p>
+                    </div>
+                    <p class="valor-pago"><strong>Valor pago: R$ 269,90</strong></p>
+                    <div class="botoes-modal">
+                        <button class="salvar">NFC-e</button>
+                        <button class="salvar">Imprimir</button>
+                        <button class="botao-azul">Cupom Troca</button>
+                        <a href="venda.html"><button class="botao-azul">Alterar Venda</button></a>
+                        <a href="index.html"><button class="cancelar">Fechar</button></a>
+                    </div>
+                      </div>
+                    </div>
+                    
                 </div>
             </div>
             </div>
@@ -134,7 +210,10 @@
                 </div>
                 <input class="input-obs" type="text" placeholder="Observações">
             </div>
-        </div>
             
+        </div>
+            <script src="js/recebiemnto.js">
+                
+            </script>
 </body>
 </html>
